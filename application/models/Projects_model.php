@@ -38,11 +38,15 @@ class Projects_model extends CI_Model {
         $links = [
             [
                 'title' => 'Codesignal',
-                'url'  => 'https://app.codesignal.com/profile/marwan9956'
+                'url'   => 'https://app.codesignal.com/profile/marwan9956'
             ],
             [
                 'title' => 'Github',
-                'url'  => 'https://github.com/Marwan9956'
+                'url'   => 'https://github.com/Marwan9956'
+            ],
+            [
+                'title' => 'Freecodecamp',
+                'url'   => 'https://www.freecodecamp.org/marwan9956'
             ]
         ];
         return $links;

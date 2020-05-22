@@ -12,7 +12,13 @@
     </div>
 </section>
 <div class="social-dev">
-    <a class="btn" href="#">Glassdoor</a>
-    <a class="btn" href="#">Github</a>
-    <a class="btn" href="#">Codesignal</a>
+    <?php if(isset($links)):?>
+    <div>
+        <?php foreach($links as $link): ?>
+        <a target="_blank" class="btn" href="<?php echo $link['url'] ?>"> 
+            <?php echo $link['title']; ?>
+        </a>
+        <?php endforeach;?>
+    </div>
+    <?php endif;?>
 </div>
