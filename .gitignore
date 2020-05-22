@@ -29,3 +29,6 @@ application/config/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+
+application/config/*
