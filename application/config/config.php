@@ -23,12 +23,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
 if($_SERVER['SERVER_NAME'] === 'localhost'){
 	$config['base_url'] = 'http://localhost/portfolio/';
-}else if($_SERVER['SERVER_NAME'] === 'marwansaleh.000webhostapp.com'){
-	$config['base_url'] = 'https://marwansaleh.000webhostapp.com/portfolio/' ;
-}else if($_SERVER['SERVER_NAME'] === 'marwansaleh.epizy.com'){
-	$config['base_url'] = 'http://marwansaleh.epizy.com/portfolio/' ;
+}else if($_SERVER['SERVER_NAME'] === 'marwan9956.000webhostapp.com'){
+	$config['base_url'] = 'https://marwan9956.000webhostapp.com/portfolio/' ;
+}else{
+	$config['base_url'] = 'https://' . $_SERVER['SERVER_NAME'] ;
 }
 
 /*
