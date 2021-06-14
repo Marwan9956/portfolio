@@ -12,11 +12,11 @@ class Projects_model extends CI_Model {
             [
                 'id'          =>  1,
                 'projectType' => 'portfolio',
-                'title'       => 'Bookmark',
-                'description' => 'codeigniter Basic web app for Bookmarks implement login and crud operations ',
-                'tools'       => ['HTML','CSS','PHP','MYSQL','Codeigniter'],
-                'projectImg'  => 'bookmark.jpg',
-                'link'        => $serverName.'/bookmark'
+                'title'       => 'Sport news',
+                'description' => 'laravel vue js app for real time news and headlines backend in laravel front end with vue js to see site click on front end.',
+                'tools'       => ['laravel', 'vuejs' ,'HTML','CSS','PHP','postgresql'],
+                'projectImg'  => 'sport_news.jpg',
+                'link'        => 'http://marwan-sport-news.herokuapp.com'
             ],
             [
                 'id'          => 2,
