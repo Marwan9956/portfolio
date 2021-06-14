@@ -74,6 +74,7 @@ class Home extends CI_Controller {
 		if ($this->form_validation->run() == FALSE){
 			$this->load->view('layouts/main',$data);
 		}else{
+			$this->load->library('email');
 			$email   =  $this->input->post('email');
 			$name    =  $this->input->post('name');
 			$subject =  $this->input->post('subject');
