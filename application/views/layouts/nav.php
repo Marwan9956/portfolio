@@ -7,5 +7,5 @@
         <a href="<?php echo base_url();?>">Home</a>
     <?php endif;?>
     <!--<a href="#">Certificate</a>-->
-    <a class="btn" href="<?php echo base_url('/contact'); ?>">Contact</a>
+    <!-- <a class="btn" href="<?php echo base_url('/contact'); ?>">Contact</a> -->
 </nav>
