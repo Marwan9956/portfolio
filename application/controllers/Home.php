@@ -92,7 +92,7 @@ class Home extends CI_Controller {
 			$this->email->message($message);
 
 			try{
-				$this->Message_model->storeMessage($messageArr);
+				//$this->Message_model->storeMessage($messageArr);
 				if(!$this->email->send()){
 					throw new siteException('Error : Your Message Didn\'t Sent Successfully Tyr Again');
 				}
