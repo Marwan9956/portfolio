@@ -26,6 +26,15 @@ class Projects_model extends CI_Model {
                 'tools'       => ['HTML','JAVASCRIPT','CSS', 'jQuery','PHP','MYSQL','Codeigniter'],
                 'projectImg'  => 'indeed_clone.jpg',
                 'link'        => 'https://marwan9956.000webhostapp.com/indeed/'
+            ],
+			[
+                'id'          => 3,
+                'projectType' => 'portfolio',
+                'title'       => 'Quiz App',
+                'description' => 'Laravel quiz app that has front end part to show quiz by topic in /quiz  and backend on /admin where you can add subject or add question and edit them  , if you want admin part it is on http://quizweb-site.herokuapp.com/admin',
+                'tools'       => ['HTML','JAVASCRIPT','CSS','PHP','PostegreSql','Laravel'],
+                'projectImg'  => 'quiz.jpg',
+                'link'        => 'http://quizweb-site.herokuapp.com/quiz'
             ]
         ];
         if(empty($projects)){
