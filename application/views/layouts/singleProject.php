@@ -20,7 +20,7 @@
         
     </div>
     <div class="center">
-        <a href="<?php echo $project['link'];?>" class="btn btn-black">See Project</a>
+        <a target="_blank" href="<?php echo $project['link'];?>" class="btn btn-black">See Project</a>
         <?php if(isset($project['backend'])):?>
             <a target="_blank" class="btn btn-black" href="<?php echo $project['backend'];?>" >Back end  </a>
         <?php endif;?>
