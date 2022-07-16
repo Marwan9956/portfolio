@@ -16,7 +16,7 @@ class Projects_model extends CI_Model {
                 'description' => 'codeigniter web app trying to create a prototype of main features in indeed site includes job search post job apply for jobs login system ',
                 'tools'       => ['HTML','JAVASCRIPT','CSS', 'jQuery','PHP','MYSQL','Codeigniter'],
                 'projectImg'  => 'indeed_clone.jpg',
-                'link'        => 'https://marwan9956.000webhostapp.com/indeed/'
+                'link'        => 'https://indeed.marwansaleh.com/'
             ],
             [
                 'id'          =>  2,
