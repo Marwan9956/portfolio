@@ -208,6 +208,10 @@ h2{
 	display:inline-block;
 	margin: 5px;
 }
+
+.loginLinks{
+	color: red;
+}
 /*************************contact***********/
 .flex-2-col{
 	display:flex;

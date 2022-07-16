@@ -10,22 +10,25 @@ class Projects_model extends CI_Model {
         }
         $projects = [
             [
-                'id'          =>  1,
-                'projectType' => 'portfolio',
-                'title'       => 'Sport news',
-                'description' => 'laravel vue js app for real time news and headlines backend in laravel front end with vue js to see site click on front end.',
-                'tools'       => ['laravel', 'vuejs' ,'HTML','CSS','PHP','postgresql'],
-                'projectImg'  => 'sport_news.jpg',
-                'link'        => 'http://marwan-sport-news.herokuapp.com'
-            ],
-            [
-                'id'          => 2,
+                'id'          => 1,
                 'projectType' => 'portfolio',
                 'title'       => 'Indeed Clone',
                 'description' => 'codeigniter web app trying to create a prototype of main features in indeed site includes job search post job apply for jobs login system ',
                 'tools'       => ['HTML','JAVASCRIPT','CSS', 'jQuery','PHP','MYSQL','Codeigniter'],
                 'projectImg'  => 'indeed_clone.jpg',
                 'link'        => 'https://marwan9956.000webhostapp.com/indeed/'
+            ],
+            [
+                'id'          =>  2,
+                'projectType' => 'portfolio',
+                'title'       => 'Sport news',
+                'description' => 'laravel vue js app for real time news and headlines backend in laravel front end with vue js to see site click on front end. to check the web site you can login in backend link with email: marwan@marwansaleh.com , Password : 123456789',
+                'tools'       => ['laravel', 'vuejs' ,'HTML','CSS','PHP','postgresql'],
+                'projectImg'  => 'sport_news.jpg',
+                'link'        => 'http://marwan-sport-news.herokuapp.com/public/news',
+                'backend'     => 'http://marwan-sport-news.herokuapp.com',
+                'loginEmail'  => 'Email: marwan@marwansaleh.com ',
+                'loginPass'   => 'Password : 123456789'
             ],
 			[
                 'id'          => 3,
@@ -34,7 +37,8 @@ class Projects_model extends CI_Model {
                 'description' => 'Laravel quiz app that has front end part to show quiz by topic in /quiz  and backend on /admin where you can add subject or add question and edit them  , if you want admin part it is on http://quizweb-site.herokuapp.com/admin',
                 'tools'       => ['HTML','JAVASCRIPT','CSS','PHP','PostegreSql','Laravel'],
                 'projectImg'  => 'quiz.jpg',
-                'link'        => 'http://quizweb-site.herokuapp.com/quiz'
+                'link'        => 'http://quizweb-site.herokuapp.com/quiz',
+                'backend'     => 'http://quizweb-site.herokuapp.com/admin'
             ]
         ];
         if(empty($projects)){

@@ -16,6 +16,9 @@
                     </ul>
                 </div>
                 <a target="_blank" class="btn btn-black" href="<?php echo $project['link'];?>" >See project </a>
+                <?php if(isset($project['backend'])):?>
+                <a target="_blank" class="btn btn-black" href="<?php echo $project['backend'];?>" >Back end  </a>
+                <?php endif;?>
                 <a class="btn btn-black" href="<?php echo base_url('/projects/') . $project['id'];?>">About  </a>
             </div>
             <div>
