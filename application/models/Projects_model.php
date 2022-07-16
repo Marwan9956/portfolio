@@ -39,6 +39,15 @@ class Projects_model extends CI_Model {
                 'projectImg'  => 'quiz.jpg',
                 'link'        => 'http://quizweb-site.herokuapp.com/quiz',
                 'backend'     => 'http://quizweb-site.herokuapp.com/admin'
+            ],
+            [
+                'id'          => 4,
+                'projectType' => 'portfolio',
+                'title'       => 'rest api',
+                'description' => 'rest api done in Laravel ',
+                'tools'       => ['PHP','Mysql','Laravel'],
+                'projectImg'  => 'restapi.jpg',
+                'link'        => 'https://rest.marwansaleh.com/'
             ]
         ];
         if(empty($projects)){
