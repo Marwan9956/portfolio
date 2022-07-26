@@ -48,6 +48,15 @@ class Projects_model extends CI_Model {
                 'tools'       => ['PHP','Mysql','Laravel'],
                 'projectImg'  => 'restapi.jpg',
                 'link'        => 'https://rest.marwansaleh.com/'
+            ],
+            [
+                'id'          => 5,
+                'projectType' => 'portfolio',
+                'title'       => 'Angular Random quotes app ',
+                'description' => 'Angular app to generate random quotes , getting quotes using http call and randomize colors on clicking new quotes with two share buttons for twitter and tumblar',
+                'tools'       => ['Angular','http','typescript' , 'html' , 'css' , 'bootstrap'],
+                'projectImg'  => 'randomQuotes.jpg',
+                'link'        => 'https://marwansaleh.com/quotes/'
             ]
         ];
         if(empty($projects)){
