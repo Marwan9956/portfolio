@@ -57,6 +57,15 @@ class Projects_model extends CI_Model {
                 'tools'       => ['Angular','http','typescript' , 'html' , 'css' , 'bootstrap'],
                 'projectImg'  => 'randomQuotes.jpg',
                 'link'        => 'https://marwansaleh.com/quotes/'
+            ],
+            [
+                'id'          => 6,
+                'projectType' => 'portfolio',
+                'title'       => 'Angular Youtube search app ',
+                'description' => 'Angular app that fetch youtube api and return youtube videos using angular http',
+                'tools'       => ['Angular','http','typescript' , 'html' , 'css' , 'bootstrap'],
+                'projectImg'  => 'youtube-api.jpg',
+                'link'        => 'https://marwansaleh.com/youtubeapi/'
             ]
         ];
         if(empty($projects)){
