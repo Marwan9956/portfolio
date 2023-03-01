@@ -80,6 +80,10 @@ class Projects_model extends CI_Model {
                 'url'   => 'https://marwan.artstation.com/'
             ],
             [
+                'title' => 'VFX real time Samples',
+                'url'   => 'https://www.dropbox.com/sh/8x8ngkzt32gdim0/AADR1groM63pDFyeC1ejnrnPa?dl=0'
+            ],
+            [
                 'title' => 'Codesignal',
                 'url'   => 'https://app.codesignal.com/profile/marwan9956'
             ],
