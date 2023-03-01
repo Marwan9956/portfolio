@@ -15,7 +15,7 @@
                     <?php endforeach;?>
                     </ul>
                 </div>
-                <a target="_blank" class="btn btn-black" href="<?php echo $project['link'];?>" >See project </a>
+                <a target="_blank" class="btn btn-black" href="<?php echo $project['link'];?>" >Link </a>
                 <?php if(isset($project['backend'])):?>
                 <a target="_blank" class="btn btn-black" href="<?php echo $project['backend'];?>" >Back end  </a>
                 <?php endif;?>
@@ -29,9 +29,6 @@
         <?php endforeach;?>
     <?php endif;?>
     <hr>
-    <div class="center">
-        <a target="_blank" href="https://github.com/Marwan9956" class="btn btn-black">See More on Github</a>
-    </div>
     
 </section>
 <hr>

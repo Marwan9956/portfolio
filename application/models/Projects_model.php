@@ -8,6 +8,17 @@ class Projects_model extends CI_Model {
         }else{
             $serverName = 'https://'. $_SERVER['SERVER_NAME'];
         }
+        /*
+        [
+                'id'          => 4,
+                'projectType' => 'portfolio',
+                'title'       => 'rest api',
+                'description' => 'rest api done in Laravel ',
+                'tools'       => ['PHP','Mysql','Laravel'],
+                'projectImg'  => 'restapi.jpg',
+                'link'        => 'https://rest.marwansaleh.com/'
+            ]
+        */
         $projects = [
             [
                 'id'          => 1,
@@ -25,10 +36,7 @@ class Projects_model extends CI_Model {
                 'description' => 'laravel vue js app for real time news and headlines backend in laravel front end with vue js to see site click on front end. to check the web site you can login in backend link with email: marwan@marwansaleh.com , Password : 123456789',
                 'tools'       => ['laravel', 'vuejs' ,'HTML','CSS','PHP','postgresql'],
                 'projectImg'  => 'sport_news.jpg',
-                'link'        => 'http://marwan-sport-news.herokuapp.com/public/news',
-                'backend'     => 'http://marwan-sport-news.herokuapp.com',
-                'loginEmail'  => 'Email: marwan@marwansaleh.com ',
-                'loginPass'   => 'Password : 123456789'
+                'link'        => 'https://github.com/Marwan9956/sport_news',
             ],
 			[
                 'id'          => 3,
@@ -37,17 +45,8 @@ class Projects_model extends CI_Model {
                 'description' => 'Laravel quiz app that has front end part to show quiz by topic in /quiz  and backend on /admin where you can add subject or add question and edit them  , if you want admin part it is on http://quizweb-site.herokuapp.com/admin',
                 'tools'       => ['HTML','JAVASCRIPT','CSS','PHP','PostegreSql','Laravel'],
                 'projectImg'  => 'quiz.jpg',
-                'link'        => 'http://quizweb-site.herokuapp.com/quiz',
-                'backend'     => 'http://quizweb-site.herokuapp.com/admin'
-            ],
-            [
-                'id'          => 4,
-                'projectType' => 'portfolio',
-                'title'       => 'rest api',
-                'description' => 'rest api done in Laravel ',
-                'tools'       => ['PHP','Mysql','Laravel'],
-                'projectImg'  => 'restapi.jpg',
-                'link'        => 'https://rest.marwansaleh.com/'
+                'link'        => 'https://github.com/Marwan9956/quiz'
+                
             ],
             [
                 'id'          => 5,
@@ -76,6 +75,10 @@ class Projects_model extends CI_Model {
 
     public function getLinks(){
         $links = [
+            [
+                'title' => 'Artstation',
+                'url'   => 'https://marwan.artstation.com/'
+            ],
             [
                 'title' => 'Codesignal',
                 'url'   => 'https://app.codesignal.com/profile/marwan9956'
